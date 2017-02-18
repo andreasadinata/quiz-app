@@ -5,22 +5,37 @@
     <meta charset="UTF-8">
     <title>quiz-app</title>
     <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower|Cabin' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
-    <div class="container">
-        <div class="notification">Question 1 of 5</div>
-        <div class="question">What is the capital city of Indonesia?</div>
-        <ul class="choices">
-            <li class="box">Surabaya</li>
-            <li class="box">Jakarta</li>
-            <li class="box">Bali</li>
+    <section id="introduction">
+        <h2>How well do you know Indonesia?</h2>
+        <button type="submit" class="start-quiz">Take The Quiz!!</button>
+    </section>
+    <section id="questionWrapper">
+        <div id="notification">
+            <!--Question 1 of 5 (Correct: 0)-->
+        </div>
+        <div id="questions">What is the capital city of Indonesia?</div>
+        <ul id="choices">
+            <!--
+            <li class="box">
+                <input type="radio" class="option" name="option" value="0">Surabaya</li>
+            <li class="box">
+                <input type="radio" class="option" name="option" value="1">Jakarta</li>
+            <li class="box">
+                <input type="radio" class="option" name="option" value="2">Bali</li>
+                -->
         </ul>
-        <button class="button" type="submit">Submit</button>
-        <div class="correctness">correct: 0</div>
-        <div class="incorrectness">incorrect: 0</div>
-    </div>
+
+    </section>
+    <section id="finalResult">
+        <h2>Final Score</h2>
+        <div id="result">0/10</div>
+        <button type="reset" class="restart">Restart</button>
+    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>

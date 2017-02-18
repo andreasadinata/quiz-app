@@ -1,22 +1,57 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px;
-    padding: 10px;
+    padding: 25px;
+    color: white;
 }
 
-.container {
-    border: 3px solid black;
-    border-radius: 3px;
-    padding: 20px;
+body {
+    margin-top: 80px;
+    background-image: url(http://i.cdn.cnn.com/cnn/.e/img/3.0/branding/backgrounds/on-the-road-indonesia/on-the-road-indonesia-background-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    background-image: url(transparent.jpg);
+}
+
+button {
+    background-color: #9e9e9e;
+    border-color: #9e9e9e;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    text-shadow: none;
+    width: 9.688rem;
+    color: #000000;
+}
+
+#questionWrapper {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
-    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 62%;
+    font-size: 30px;
+    font-family: indie flower;
+}
+
+#introduction,
+#finalResult {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+    font-size: 30px;
+    font-family: indie flower;
 }
 
 .question {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -29,6 +64,10 @@
 
 .button {
     margin-left: 41%;
-    padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#result {
+    font-size: 30px;
 }
